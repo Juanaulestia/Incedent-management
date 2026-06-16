@@ -1,0 +1,3 @@
+destinations='[{"name":"APIHUB_SANDBOX","url":"https://APIHUB_SANDBOX.dest","proxyHost":"http://127.0.0.1","proxyPort":"8887"}]'
+cds_requires='{"APIHUB_SANDBOX":{"impl":"@sap/cds/srv/remote-service.js","external":true,"kind":"odata-v2","model":"srv/external/APIHUB_SANDBOX","credentials":{"destination":"APIHUB_SANDBOX","path":"/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER"}},"auth":{"strategy":"dummy","kind":"dummy"},"messaging":{"kind":"local-messaging"}}'
+VCAP_SERVICES='{}'
